@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <audio id="buzzer" src="https://notificationsounds.com/soundfiles/53fde96fcc4b4ce72d7739202324cd49/file-sounds-882-solemn.mp3"></audio> 
+
+<body>
+        <div class='spacer'></div>
+            <div class='container-fluid text-center block'>
+            <h1>Pomodoro Clock</h1>
+            <div id='timeDiv'>
+                <h1 id='title1'>Session Time</h1><br>
+                <a href='#' class='btn custom' id="m5Time">-</a>
+                <h2 id="session"></h2>
+                <h2 id="num">5</h2>
+                <a href='#' class='btn custom' id='a5Time'>+</a><br>
+                <a href='#' class='btn custom' id='reset'>Reset</a>
+            </div>
+            <div id='breakDiv'>
+                <h1 id='title1'>Break Time</h1><br>
+                <a href='#' class='btn custom' id='m5Break'>-</a>
+                <h2 id='breakNum'>5</h2>
+                <a href='#' class='btn custom' id='a5Break'>+</a><br>
+            </div>
+            <a href='#' class='btn custom' id='start'>Start</a><br>
+            </div>
+      <div class='spacer'></div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

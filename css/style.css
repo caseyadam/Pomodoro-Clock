@@ -1,0 +1,33 @@
+body {
+    background-image: url("http://cdn.pcwallart.com/images/alarm-clock-wallpaper-2.jpg");
+    background-size:100%;
+    background-color: white;
+    /*background-attachment: fixed;*/
+}
+
+.block{
+    background: rgba(0,0,0,.7);
+    color:white;
+    padding:20px;
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.spacer{
+    padding:3%;
+}
+
+h2{
+    display: inline;
+}
+
+#start, #reset {
+    margin:15px;
+}
+
+.custom{
+    color:black;
+    background-color: white;
+}
